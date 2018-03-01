@@ -1,81 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href=css/style.cc>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cameron Burrows</title>
-
-    <style>
-    
-    body {
-        background-color: #efeee7;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: #333333;
-        margin-left: 20px;
-        padding: 0;
-    }
-
-    h1 {
-        color: black;
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    .container {
-
-    }
-    
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="main.js"></script>
 </head>
 
+
 <body>
-    <div class="container">
-            <header>
-            <h1>Student Bio</h1>
-            </header>
-            
-            <div class="jumbotron">
-                <h1 class="display-4">Hello, Potential Employer!</h1>
-                <p class="lead">Welcome to my personal site! Stay a while, and learn a little bit about me.</p>
-                <hr class="my-4">
-                <p></p>
-                <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/cameron-burrows" role="button" target="_blank">LinkedIn</a>
-                </p>
-              </div>
-            
-            <section id="main-bio">
-            <h2>Cameron Burrows</h2>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="bio.html">Bio</a>
+          <a class="nav-item nav-link" href="work.html">Work</a>
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </div>
+      </div>
+        <ul class="nav navbar-right social">
+          <li><a href="https://www.instagram.com/camueljackson/" target=“_blank”><i class="fab fa-instagram fa-lg" style="color:white"></i></a></li>
+          <li><a href="https://twitter.com/burrritscold?lang=en" target=“_blank”><i class="fab fa-twitter fa-lg" style="color:white"></i></a></li>
+          <li><a href="https://github.com/CamBurrows" target=“_blank”><i class="fab fa-github fa-lg" style="color:white"></i></a></li>
+          <li><a href="https://stackexchange.com/users/12925627/cameron-burrows" target=“_blank”><i class="fab fa-stack-overflow fa-lg white-text" style="color:white"></i></a></li>
+          <li><a href="http://www.linkedin.com/in/cameron-burrows" target=“_blank”><i class="fab fa-linkedin-in fa-lg white-text" style="color:white"></i></a></li>
+        </ul>
+    </nav>
+  </div>
     
-            <img id="bio-image" src=beard-tux-headshot-square.png height=200px width=200px alt="Cameron">
-            <br>
+  <div class="container"><!--Page Container-->
     
-            <p>I graduated from Wingate University in 2016 with a B.S. in Marketing, and a Minor in Graphic Design. 
-                Since graduating, I have done freelance Graphic Design for clients in the Charlotte area and have also worked as a marketing and design
-                intern for Speed Digital, a Charlotte-based tech company. I am currently enrolled in UNCC Coding Bootcamp and I will be pursuing a job 
-                as a front-end or full-stack developer following the course.</p>
-            <p>
-                Outside of development and design, I have a passion for soccer. I played as a defender for Wingate University and Semi-pro team, the Myrtle Beach Mutiny.
-                I stay involved by doing commentary for Wingate's Soccer Teams on ESPN3, and playing in a 7v7 men's league.
-            </p>
-        </section>
-            
-        <section id="contact-info">
-            <h2>Contact Info</h2>
-    
-            <ul>
-                <li><strong>Email: </strong><a href="mailto:cam.burrowsdesigns@gmail.com">cam.burrowsdesigns@gmail.com</a></li>
-                <li><strong>Github: </strong><a href="https://github.com/CamBurrows">CamBurrows</a></li>
-                <li><strong>Portfolio: </strong><a href="https://cam.burrowsdesigns.com">Personal Portfolio</a></li>
-            </ul>
-        </section>
-    <div>
+    <div class="row"> <!--Row with page Titling-->
+      <div class="col-sm-6"> <!--Hello title!-->
+        <h1>Hey, I'm Cam!</h1>
+      </div>
+      
+      <div class="col-sm-6">
+        <h2>A Charlottean Web Designer / Developer who loves to build from the foundation up.</h2>
+      </div>
+    </div>
+  
+    <div class="row"> <!--Row with skills-->
+      <div class="col-sm-6"> <!--Dummy column-->
+      </div>
+
+      <div class="col-sm-3"> <!--Design Skills-->
+        <h3>Design</h3>
+        <ul class="abilities">
+          <li>UX/UI</li>
+          <li>Logo Design</li>
+          <li>Digital Illustration</li>
+          <li>Gifs</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Lightroom</li>
+          <li>Adobe Draw</li>
+        </ul>
+      </div>
+
+      <div class="col-sm-3">
+        <h3>Development</h3> <!--Dev Skills-->
+        <ul class="abilities">
+        <li>HTML + CSS</li>
+        <li>Bootstrap</li>
+        <li>Git</li>
+        </ul>
+      </div>
+    </div>
+  
+  
+  </div> 
+  
+  <!--Bootstrap javascript-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
 </body>
 </html>

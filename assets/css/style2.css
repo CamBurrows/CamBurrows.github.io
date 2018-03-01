@@ -1,0 +1,70 @@
+body {
+    background-image: url("http://laoblogger.com/images/black-wood-panel-clipart-3.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: rgb(126, 67, 34);
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    padding: 10px 0px 0px 0px;
+ }
+
+.navbar-inner {
+    background:transparent;
+}
+
+.navbar {
+    padding-left:0px;
+}
+
+.social .fa-instagram:hover {
+    background-color: #D33294;
+}
+
+.social .fa-twitter:hover {
+    background-color: #00ABE3;
+}
+
+.social .fa-github:hover {
+    background-color: #24292E;
+}
+
+.social .fa-stack-overflow:hover {
+    background-color: #F5935A;
+}
+
+.social .fa-linkedin-in:hover {
+    background-color: #0078B1;
+}
+
+.social > li {
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+form {
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    font-size: 24px;
+}
+
+.standing {
+    width: 600px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: white;
+    font-family: 'Karma', serif;
+    padding-top: 10px;
+    line-height: 28px;
+}
+
+.carousel-caption {
+    color: black;
+}

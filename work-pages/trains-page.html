@@ -37,26 +37,33 @@
   </div>
     
   <div class="container"><!--Page Container-->
-    <div class="row" style="padding-top: 40px">
-        <div class="col-sm-3 description">
-            This hangman game is influenced by my appreciation for the Sci-Fi genre. The design elements are mobile responsive, however, the game was programmed
-            to detect presses on the letter keys, and it is not possible to bring up the the keyboard on a mobile device without a
-            designated text input field, making the game unplayable on mobile. This game demonstrates my knowledge of javascript fundamentals.
-            
+    <div class="row">
+      <div class="btn-group" role="group" aria-label="First group">
+        <a href="../work.html" class="btn btn-outline-info" role="button">Back to Work</a>
+    
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" target="_blank" href="https://github.com/CamBurrows/train-schedule">Github Repo</a>
+            <a class="dropdown-item" target="_blank" href="https://camburrows.github.io/train-schedule/">Full Project Page</a>
+          </div>
+        </div>
+    
+        <a href="mcg-ads.html" class="btn btn-info" role="button">Next Project</a>
+    </div>
+  </div>
 
-            
-            
-                <div class="btn-group" role="group" aria-label="First group">
-                    <a href="../work.html" class="btn btn-outline-info" role="button" style="margin-top: 10px", "margin-bottom: 10px">Back to Work</a>
-                
-                
-                    <a href="mcg-ads.html" class="btn btn-info" role="button" style="margin-top: 10px", "margin-bottom: 10px">Next Project</a>
-                </div>
-            
+    
+    <div class="row" style="padding-top: 10px">
+        <div class="col-sm-3 description">
+            This app utilizes a Firebase database to store user input. The idea is for users to input train information, and dynamically display
+            current train informationin the table. Note: This is a work in progress, as there is a currently a bug in the time math calculations
+            for scenarios when the first train is after the current time.
         </div>
         
         <div class="col-md-9">
-            <iframe src="https://camburrows.github.io/hangman-game/"></iframe>
+            <iframe src="https://camburrows.github.io/train-schedule/"></iframe>
         </div>
     </div>
 

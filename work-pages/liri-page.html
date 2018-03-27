@@ -40,14 +40,24 @@
     <div class="row">
         <div class="btn-group" role="group" aria-label="First group">
             <a href="../work.html" class="btn btn-outline-info" role="button">Back to Work</a>
+            
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" target="_blank" href="https://github.com/CamBurrows/liri-node-app">Github Repo</a>
+              </div>
+            </div>
+            
             <a href="trains-page.html" class="btn btn-info" role="button">Next Project</a>
         </div>
-      </div>
+    </div>
     
     <div class="row" style="padding-top: 10px">
         <div class="col-sm-3 description">
             Liri is a node command line app that can process the commands: 'my-tweets', 'spotify-this song', 'movie-this movie'. In return it will output a list of the most recent 20 tweets from
-            my alias account, provide information on a song, or provide information on a movie.
+            a twitter account, provide information on a song, or provide information on a movie. You'll need to clone the repository, npm install that package.json, and use
+            you're own .env file with keys for twitter and spotify to utilize this app.
         </div>
         
         <div class="col-md-9">

@@ -88,24 +88,24 @@ input[value="example@gmail.com"] {
     padding-left:0px;
 }
 
-.social .fa-instagram:hover {
-    background-color: #D33294;
-}
+/* .social .fa-instagram:hover {
+   color: #D33294;
+} */
 
 .social .fa-twitter:hover {
-    background-color: #00ABE3;
+    color: #00ABE3;
 }
 
 .social .fa-github:hover {
-    background-color: #24292E;
+    color: #24292E;
 }
 
 .social .fa-stack-overflow:hover {
-    background-color: #F5935A;
+    color: #F5935A;
 }
 
 .social .fa-linkedin-in:hover {
-    background-color: #0078B1;
+    color: #0078B1;
 }
 
 .social > li {

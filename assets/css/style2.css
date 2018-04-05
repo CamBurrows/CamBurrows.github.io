@@ -81,3 +81,12 @@ iframe {
     width: 100%;
     height: 720px;
 }
+
+.dev,
+.dev2 {
+    background-color: rgba(0, 0, 0, 0.35)
+}
+
+#filler {
+    color: rgba(0, 0, 0, 0.00)
+}

@@ -84,7 +84,8 @@ iframe {
 
 .dev,
 .dev2 {
-    background-color: rgba(0, 0, 0, 0.35)
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 15px
 }
 
 #filler {

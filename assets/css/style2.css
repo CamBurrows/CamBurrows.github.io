@@ -30,23 +30,11 @@ h1 {
     font-size: 20px;
 }
 
-.social .fa-instagram:hover {
-    background-color: #D33294;
-}
-
-.social .fa-twitter:hover {
-    background-color: #00ABE3;
-}
-
-.social .fa-github:hover {
+.fa-github:hover {
     background-color: #24292E;
 }
 
-.social .fa-stack-overflow:hover {
-    background-color: #F5935A;
-}
-
-.social .fa-linkedin-in:hover {
+.fa-linkedin-in:hover {
     background-color: #0078B1;
 }
 
@@ -83,12 +71,24 @@ iframe {
     height: 720px;
 }
 
-.dev,
+.dev {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 10px 0px 0px 10px
+}
+
 .dev2 {
     background-color: rgba(0, 0, 0, 0.35);
-    border-radius: 15px
+    border-radius: 0px 10px 10px 0px
 }
 
 #filler {
-    color: rgba(0, 0, 0, 0.00)
+    color: rgba(0, 0, 0, 0.00);
+}
+
+h2 {
+    margin: 10px;
+}
+
+.card-body:hover {
+    background-color:rgba(162, 193, 250, 0.205)
 }

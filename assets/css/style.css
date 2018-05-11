@@ -94,24 +94,13 @@ input[value="example@gmail.com"] {
     font-size: 20px;
 }
 
-/* .social .fa-instagram:hover {
-   color: #D33294;
-} */
-
-.social .fa-twitter:hover {
-    color: #00ABE3;
+.fa-github:hover {
+    background-color: #24292E;
 }
 
-.social .fa-github:hover {
-    color: #24292E;
-}
 
-.social .fa-stack-overflow:hover {
-    color: #F5935A;
-}
-
-.social .fa-linkedin-in:hover {
-    color: #0078B1;
+.fa-linkedin-in:hover {
+    background-color: #0078B1;
 }
 
 .social > li {

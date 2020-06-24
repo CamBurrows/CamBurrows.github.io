@@ -32,3 +32,8 @@ $(document).ready(function(){
     }
   })
 })
+
+$(document).on('click', '.lead-image', function(){
+  console.log('test')
+  $("#thumbnails a:first-child > img").trigger("click");
+});

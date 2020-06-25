@@ -101,8 +101,7 @@
   overflow: hidden; }
   .hero-container .logo-container {
     border-radius: 60px;
-    background-color: #79fda1;
-    mix-blend-mode: hard-light;
+    background-color: rgba(0, 0, 0, 0.7);
     width: 120px;
     height: 120px;
     background-image: url("/images/site_assets/cb-logo-2020-w.svg");
@@ -110,7 +109,7 @@
     background-size: 80px;
     background-position: 66% 39%;
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: 150px;
     z-index: 3; }
     .hero-container .logo-container:before, .hero-container .logo-container:after {

@@ -1,143 +1,179 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-  <meta content="initial-scale=1,maximum-scale=1,user-scalable=no", name="viewport">
-  <meta name="description" content="Portfolio site of Charlotte, NC front-end engineer Cameron Burrows">
-  <meta name="keywords" content="Cameron Burrows Web Design Development Portfolio UX UI">
-  <title>Cameron Burrows</title>
-  <link rel="shortcut icon" href="/images/site_assets/favicon.ico">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link href="/stylesheets/all.css" rel="stylesheet" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+      ,
+      name="viewport"
+    />
+    <meta
+      name="description"
+      content="Portfolio site of Charlotte, NC front-end engineer Cameron Burrows"
+    />
+    <meta
+      name="keywords"
+      content="Cameron Burrows Web Design Development Portfolio UX UI"
+    />
+    <title>Cameron Burrows</title>
+    <link rel="shortcut icon" href="/images/site_assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="/stylesheets/all.css" rel="stylesheet" />
+  </head>
 
-<body class="index">
-  <a class='cb-brand' href='/'>
-CBurrows
-</a>
+  <body class="index">
+    <canvas class="webgl"></canvas>
 
-  <div class='wrap'>
-<div class='hero-container'>
-<div class='logo-container'></div>
-<div class='content-pane landing-pane active-pane'>
-<div class='hero-headline'>
-<h2 class='white'>
-When we understand
-<br>
-how the world is Shaped,
-</h2>
-<h1 class='white'>
-We can begin to
-<br>
-shape our Own.
-</h1>
-</div>
-<div class='hero-cta-box'>
-<div class='work-btn cb-btn primary light'>
-Work
-</div>
-<div class='about-btn cb-btn secondary light'>
-About
-</div>
-</div>
-</div>
-<div class='content-pane work-pane closed-pane'>
-<div class='project-list-container'>
-<a href="projects/dogwood-moving-site/" class="project-item" id="1" style="background-image:url('images/dogwood-moving-site/hero/hero.jpg')"><div class='project-name'>
-Dogwood Moving Website
-</div>
-</a><a href="projects/elite-restomods-site/" class="project-item" id="2" style="background-image:url('images/elite-restomods-site/hero/hero.jpg')"><div class='project-name'>
-Elite Restomods Website
-</div>
-</a><a href="projects/savannah-rc-site/" class="project-item" id="3" style="background-image:url('images/savannah-rc-site/hero/hero.jpg')"><div class='project-name'>
-SavannahRC Website
-</div>
-</a><a href="projects/raleigh-classic-site/" class="project-item" id="4" style="background-image:url('images/raleigh-classic-site/hero/hero.jpg')"><div class='project-name'>
-Raleigh Classics Website
-</div>
-</a></div>
-<div class='hero-cta-box'>
-<div class='about-btn cb-btn primary light'>
-About
-</div>
-<div class='home-btn cb-btn secondary light'>
-Home
-</div>
-</div>
-</div>
-<div class='content-pane about-pane closed-pane'>
-<div class='about-container about-delay'>
-<h2 class='white'>
-Cameron Burrows
-</h2>
-<p class='white'>
-Is a Front-end Engineer who loves to build from the foundation up.
-<br>
-<br>
-I graduated from Wingate University in 2016, where I studied Marketing and Graphic Design.
-After college, I did freelance design and worked as a digital marketing intern. I then learned coding at UNCC's
-full-stack coding bootcamp in early 2018.
-<br>
-<br>
-Following coding bootcamp, I began working as a Front-End Developer at SpeedDigital, a Charlotte based tech company. At SpeedDigial
-I have been designing and developing marketing websites for Collector Car dealerships across the US. My role also includes internal
-marketing related design & dev. In addition, I make updates to our proprietary dealer managament software.
-<br>
-<br>
-</p>
-<div class='skills-block'>
-<p class='skills-col'>
-<span>
-Dev Skills:
-</span>
-<br>
-HTML/CSS, HAML/SASS
-<br>
-JAVASCRIPT, JQUERY, ES6
-<br>
-REACT.JS
-<br>
-RUBY ON RAILS
-<br>
-AMP
-<br>
-NODE, EXPRESS, HANDLEBARS
-<br>
-GIT, GITHUB, GITLAB, HEROKU
-<br>
-MYSQL, PostgresQL, NoSQL
-</p>
-<p class='skills-col'>
-<span>
-Design Skills:
-</span>
-<br>
-UX/UI
-<br>
-BRANDING
-<br>
-DIGITAL & PRINT ADVERTISING
-<br>
-VECTOR ART
-</p>
-</div>
-</div>
-<div class='hero-cta-box'>
-<div class='work-btn cb-btn primary light'>
-Work
-</div>
-<div class='home-btn cb-btn secondary light'>
-Home
-</div>
-</div>
-</div>
-</div>
-</div>
+    <!-- <a class="cb-brand" href="/"> CBurrows </a>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="/javascripts/site.js"></script>
-</body>
+    <div class="wrap">
+      <canvas class="webgl"></canvas>
+      <div class="hero-container">
+        <div class="logo-container"></div>
+        <div class="content-pane landing-pane active-pane">
+          <div class="hero-headline">
+            <h2 class="white">
+              When we understand
+              <br />
+              how the world is Shaped,
+            </h2>
+            <h1 class="white">
+              We can begin to
+              <br />
+              shape our Own.
+            </h1>
+          </div>
+          <div class="hero-cta-box">
+            <div class="work-btn cb-btn primary light">Work</div>
+            <div class="about-btn cb-btn secondary light">About</div>
+          </div>
+        </div>
+        <div class="content-pane work-pane closed-pane">
+          <div class="project-list-container">
+            <a
+              href="projects/dogwood-moving-site/"
+              class="project-item"
+              id="1"
+              style="
+                background-image: url('images/dogwood-moving-site/hero/hero.jpg');
+              "
+              ><div class="project-name">Dogwood Moving Website</div> </a
+            ><a
+              href="projects/elite-restomods-site/"
+              class="project-item"
+              id="2"
+              style="
+                background-image: url('images/elite-restomods-site/hero/hero.jpg');
+              "
+              ><div class="project-name">Elite Restomods Website</div> </a
+            ><a
+              href="projects/savannah-rc-site/"
+              class="project-item"
+              id="3"
+              style="
+                background-image: url('images/savannah-rc-site/hero/hero.jpg');
+              "
+              ><div class="project-name">SavannahRC Website</div> </a
+            ><a
+              href="projects/raleigh-classic-site/"
+              class="project-item"
+              id="4"
+              style="
+                background-image: url('images/raleigh-classic-site/hero/hero.jpg');
+              "
+              ><div class="project-name">Raleigh Classics Website</div>
+            </a>
+          </div>
+          <div class="hero-cta-box">
+            <div class="about-btn cb-btn primary light">About</div>
+            <div class="home-btn cb-btn secondary light">Home</div>
+          </div>
+        </div>
+        <div class="content-pane about-pane closed-pane">
+          <div class="about-container about-delay">
+            <h2 class="white">Cameron Burrows</h2>
+            <p class="white">
+              Is a Front-end Engineer who loves to build from the foundation up.
+              <br />
+              <br />
+              I graduated from Wingate University in 2016, where I studied
+              Marketing and Graphic Design. After college, I did freelance
+              design and worked as a digital marketing intern. I then learned
+              coding at UNCC's full-stack coding bootcamp in early 2018.
+              <br />
+              <br />
+              Following coding bootcamp, I began working as a Front-End
+              Developer at SpeedDigital, a Charlotte based tech company. At
+              SpeedDigial I have been designing and developing marketing
+              websites for Collector Car dealerships across the US. My role also
+              includes internal marketing related design & dev. In addition, I
+              make updates to our proprietary dealer managament software.
+              <br />
+              <br />
+            </p>
+            <div class="skills-block">
+              <p class="skills-col">
+                <span> Dev Skills: </span>
+                <br />
+                HTML/CSS, HAML/SASS
+                <br />
+                JAVASCRIPT, JQUERY, ES6
+                <br />
+                REACT.JS
+                <br />
+                RUBY ON RAILS
+                <br />
+                AMP
+                <br />
+                NODE, EXPRESS, HANDLEBARS
+                <br />
+                GIT, GITHUB, GITLAB, HEROKU
+                <br />
+                MYSQL, PostgresQL, NoSQL
+              </p>
+              <p class="skills-col">
+                <span> Design Skills: </span>
+                <br />
+                UX/UI
+                <br />
+                BRANDING
+                <br />
+                DIGITAL & PRINT ADVERTISING
+                <br />
+                VECTOR ART
+              </p>
+            </div>
+          </div>
+          <div class="hero-cta-box">
+            <div class="work-btn cb-btn primary light">Work</div>
+            <div class="home-btn cb-btn secondary light">Home</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/javascripts/site.js"></script>
+    <script type="module" src="/javascripts/fake-3d-image.js"></script>
+  </body>
 </html>

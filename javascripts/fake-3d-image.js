@@ -1,7 +1,7 @@
 console.clear();
 
 import * as THREE from "https://cdn.skypack.dev/three@0.129.0";
-import * as dat from "https://cdn.skypack.dev/dat.gui";
+// import * as dat from "https://cdn.skypack.dev/dat.gui";
 
 /**
  * Variables
@@ -9,10 +9,10 @@ import * as dat from "https://cdn.skypack.dev/dat.gui";
 
 // Main Settings
 const settings = {
-  xThreshold: 20,
-  yThreshold: 35,
-  originalImagePath: "https://assets.codepen.io/122136/dog-photo.jpg",
-  depthImagePath: "https://assets.codepen.io/122136/dog-depth-map.jpg",
+  xThreshold: 45,
+  yThreshold: 30,
+  originalImagePath: "/images/site_assets/CB-portfolio-hero.jpg",
+  depthImagePath: "/images/site_assets/CB-portfolio-hero-depth-map.jpg",
 };
 
 // Sizes
@@ -48,7 +48,7 @@ const cursor = {
  */
 
 // Debug
-const gui = new dat.GUI();
+// const gui = new dat.GUI();
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
@@ -168,36 +168,36 @@ create3dImage();
  * Add Settings to GUI
  */
 
-gui
-  .add(settings, "originalImagePath", {
-    Dog: "https://assets.codepen.io/122136/dog-photo.jpg",
-    Girl: "https://assets.codepen.io/122136/girl-photo.jpg",
-    Splash: "https://assets.codepen.io/122136/splash-photo.jpg",
-  })
-  .onFinishChange(loadImages)
-  .name("Image");
-gui
-  .add(settings, "depthImagePath", {
-    Dog: "https://assets.codepen.io/122136/dog-depth-map.jpg",
-    Girl: "https://assets.codepen.io/122136/girl-depth-map.jpg",
-    Splash: "https://assets.codepen.io/122136/splash-depth-map-v1.jpg",
-  })
-  .onFinishChange(loadImages)
-  .name("Depth Map");
-gui
-  .add(settings, "xThreshold")
-  .min(0)
-  .max(50)
-  .step(1)
-  .onFinishChange(loadImages)
-  .name("X Threshold");
-gui
-  .add(settings, "yThreshold")
-  .min(0)
-  .max(50)
-  .step(1)
-  .onFinishChange(loadImages)
-  .name("Y Threshold");
+// gui
+//   .add(settings, "originalImagePath", {
+//     Dog: "https://assets.codepen.io/122136/dog-photo.jpg",
+//     Girl: "https://assets.codepen.io/122136/girl-photo.jpg",
+//     Splash: "https://assets.codepen.io/122136/splash-photo.jpg",
+//   })
+//   .onFinishChange(loadImages)
+//   .name("Image");
+// gui
+//   .add(settings, "depthImagePath", {
+//     Dog: "https://assets.codepen.io/122136/dog-depth-map.jpg",
+//     Girl: "https://assets.codepen.io/122136/girl-depth-map.jpg",
+//     Splash: "https://assets.codepen.io/122136/splash-depth-map-v1.jpg",
+//   })
+//   .onFinishChange(loadImages)
+//   .name("Depth Map");
+// gui
+//   .add(settings, "xThreshold")
+//   .min(0)
+//   .max(50)
+//   .step(1)
+//   .onFinishChange(loadImages)
+//   .name("X Threshold");
+// gui
+//   .add(settings, "yThreshold")
+//   .min(0)
+//   .max(50)
+//   .step(1)
+//   .onFinishChange(loadImages)
+//   .name("Y Threshold");
 
 /**
  * Resize
